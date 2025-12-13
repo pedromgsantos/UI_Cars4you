@@ -1,0 +1,784 @@
+Brand,Variation,AssignedValue
+Ford, FIESTA,fiesta
+Ford, Focus,focus
+Ford, Ka+,ka
+Ford, Fiesta,fiesta
+Ford,Focus,focus
+Ford, EcoSport,ecosport
+Ford, EcoSpor,ecosport
+Ford, B-MAX,b-max
+Ford, fiesta,fiesta
+Ford, S-MAX,s-max
+Ford, Mondeo,mondeo
+Ford, Kuga,kuga
+Ford, Tourneo Connect,grandtourneoconnect
+Ford, Focu,focus
+Ford, Fiest,fiesta
+Ford, FOCUS,focus
+Ford, Galaxy,galaxy
+Ford, Grand Tourneo Connect,grandtourneoconnect
+Ford, KA,ka
+Ford, Tourneo Custom,tourneocustom
+Ford, focus,focus
+Ford, Kug,kuga
+Ford, MONDEO,mondeo
+Ford, C-MAX,c-max
+Ford, Puma,puma
+Ford,Ka+,ka
+Ford, Grand C-MAX,grandcmax
+Ford, GRAND C-MAX,grandcmax
+Ford, KUGA,kuga
+Ford, EDGE,edge
+Ford, Fusion,fusion
+Ford, kuga,kuga
+Ford, Edge,edge
+Ford,Mondeo,mondeo
+Ford, ECOSPORT,ecosport
+Ford, Mustang,mustang
+Ford, B-MA,b-max
+Ford,Kuga,kuga
+Ford, Ka,ka
+Ford, FOCU,focus
+Ford,Fiesta,fiesta
+Ford, mondeo,mondeo
+Ford,focus,focus
+Ford, S-MA,s-max
+Ford, puma,puma
+Ford, GALAXY,galaxy
+Ford, Galax,galaxy
+Ford,Focu,focus
+Ford,B-MAX,b-max
+Ford, Escort,escort
+Ford, MONDE,mondeo
+Ford, Monde,mondeo
+Ford, edge,edge
+Ford, mustang,mustang
+Ford, KA+,ka
+Ford, Streetka,streetka
+Ford, ecosport,ecosport
+Ford, ka+,ka
+Ford, c-max,c-max
+Ford, galaxy,galaxy
+Ford, ka,ka
+Ford,B-MA,b-max
+Ford, C-MA,c-max
+Ford, tourneo custom,tourneocustom
+Ford, b-max,b-max
+Ford, tourneo connect,grandtourneoconnect
+Ford, s-max,s-max
+Ford, PUMA,puma
+Ford, grand c-max,grandcmax
+Ford,C-MAX,c-max
+Ford, K,focus
+Ford, Grand C-MA,grandcmax
+Ford,S-MAX,s-max
+Ford,Mustang,mustang
+Ford,EcoSport,ecosport
+Ford, Ranger,ranger
+Ford,fiesta,fiesta
+Ford,Fiest,fiesta
+Ford, Grand Tourneo Connec,grandtourneoconnect
+Ford,Galaxy,galaxy
+Ford,FIESTA,fiesta
+Ford,Fusion,fusion
+Ford, Tourneo Custo,tourneocustom
+Ford, Edg,edge
+Ford, focu,focus
+Ford,KA,ka
+Ford,ka+,ka
+Ford,kuga,kuga
+Ford,Grand C-MAX,grandcmax
+Ford, s-ma,s-max
+Ford,FOCUS,focus
+Ford,Grand Tourneo Connect,grandtourneoconnect
+Ford, fiest,fiesta
+Ford, Transit Tourneo,grandtourneoconnect
+Ford, fusion,fusion
+Ford,Pum,puma
+Ford, Pum,puma
+Mercedes, A Clas,a class
+Mercedes, A Class,a class
+Mercedes, C Class,c class
+Mercedes, E Class,e class
+Mercedes, C Clas,c class
+Mercedes, SLK,slk
+Mercedes, X-CLASS,x class
+Mercedes, CL Class,cl class
+Mercedes, GLS Class,gls class
+Mercedes, GLC Class,glc class
+Mercedes, GLE Class,gle class
+Mercedes, C CLASS,c class
+Mercedes, S Class,s class
+Mercedes, GLA Class,gla class
+Mercedes, SL CLASS,sl class
+Mercedes, c class,c class
+Mercedes, B Class,b class
+Mercedes, V Class,v class
+Mercedes, E CLASS,e class
+Mercedes, E Clas,e class
+Mercedes,E Class,e class
+Mercedes, CLS Class,cls class
+Mercedes, CLA Class,cla class
+Mercedes, GLE Clas,gle class
+Mercedes,A Class,a class
+Mercedes,C Class,c class
+Mercedes,GLC Class,glc class
+Mercedes, GL Class,gl class
+Mercedes, SL CLAS,sl class
+Mercedes,GLA Class,gla class
+Mercedes,CLA Class,cla class
+Mercedes, M Class,m class
+Mercedes, b class,b class
+Mercedes,GLE Class,gle class
+Mercedes, cl class,cl class
+Mercedes, CLK,clk
+Mercedes, a class,a class
+Mercedes, e class,e class
+Mercedes, m class,m class
+Mercedes, GLC CLASS,glc class
+Mercedes, B Clas,b class
+Mercedes, A CLASS,a class
+Mercedes, G Class,g class
+Mercedes, GLA CLASS,gla class
+Mercedes, x-clas,x class
+Mercedes, GLC Clas,glc class
+Mercedes, GLA Clas,gla class
+Mercedes, CL Clas,cl class
+Mercedes, X-CLAS,x class
+Mercedes, gle class,gle class
+Mercedes, x-class,x class
+Mercedes, GLB Class,glb class
+Mercedes, gla class,gla class
+Mercedes, glc class,glc class
+Mercedes, CL CLASS,cl class
+Mercedes,200,000
+Mercedes,SL CLASS,sl class
+Mercedes, v class,v class
+Mercedes,B Class,b class
+Mercedes, cls class,cls class
+Mercedes, S Clas,s class
+Mercedes,E CLASS,e class
+Mercedes, V CLASS,v class
+Mercedes, CLS Clas,cls class
+Mercedes, s class,s class
+Mercedes,a class,a class
+Mercedes, S CLASS,s class
+Mercedes, C CLAS,c class
+Mercedes,220,000
+Mercedes, B CLASS,b class
+Mercedes, CLS CLASS,cls class
+Mercedes, CLA CLASS,cla class
+Mercedes,230,000
+Mercedes, GLS Clas,gls class
+Mercedes, M CLASS,m class
+Mercedes,M Class,m class
+Mercedes, GL CLASS,gl class
+Mercedes, M Clas,m class
+Mercedes, sl class,sl class
+Mercedes,CL Class,cl class
+Mercedes,c class,c class
+Mercedes,A CLASS,a class
+Mercedes, GLS CLASS,gls class
+Mercedes, a clas,a class
+Mercedes,e class,e class
+Mercedes, c clas,c class
+Mercedes, V Clas,v class
+Mercedes, SL,sl
+Mercedes, CLC Class,clc class
+Mercedes,CLK,clk
+Mercedes, slk,slk
+Mercedes, GLE CLASS,gle class
+Mercedes, gls class,gls class
+Mercedes, glc clas,glc class
+Mercedes,V Class,v class
+Mercedes, cla class,cla class
+Mercedes,GL Class,gl class
+Mercedes, glb class,glb class
+Mercedes, M CLAS,m class
+Mercedes, G CLAS,g class
+Mercedes, gl class,gl class
+Mercedes,180,000
+Mercedes,S Class,s class
+Mercedes, R Class,x class
+Mercedes,CLS Class,cls class
+Mercedes,C CLASS,c class
+Mercedes, CLA Clas,cla class
+Mercedes, GL Clas,gl class
+Mercedes,X-CLASS,x class
+VW, Golf,golf
+VW, Passat,passat
+VW, Polo,polo
+VW, Up,up
+VW, sharan,sharan
+VW, Tiguan,tiguan
+VW, T-Roc,troc
+VW, polo,polo
+VW, Arteon,arteon
+VW, Touran,touran
+VW, Sharan,sharan
+VW, POLO,polo
+VW, GOLF,golf
+VW, Caddy Maxi Life,caddymaxilife
+VW,T-Roc,troc
+VW, Beetle,beetle
+VW, Shara,sharan
+VW,Touran,touran
+VW, Touareg,touareg
+VW, Shuttle,shuttle
+VW, Tiguan Allspace,tiguanallspace
+VW, Caravelle,caravelle
+VW,Golf,golf
+VW, Pol,polo
+VW, T-Cross,tcross
+VW, Golf SV,golfsv
+VW, Gol,gol
+VW, California,california
+VW,Touareg,touareg
+VW,Toura,touran
+VW, Caddy Life,caddylife
+VW,Polo,polo
+VW, Scirocco,scirocco
+VW, TOURAN,touran
+VW, tiguan,tiguan
+VW, Passa,passat
+VW, Amarok,amarok
+VW, CC,cc
+VW, Eos,eos
+VW,Tiguan,tiguan
+VW, Tigua,tiguan
+VW, Jetta,jetta
+VW,Golf SV,golfsv
+VW, golf,golf
+VW,U,golf
+VW, PASSAT,passat
+VW, passat,passat
+VW,golf,golf
+VW, t-roc,troc
+VW, Arteo,arteon
+VW, T-Ro,troc
+VW, up,up
+VW, TOUAREG,touareg
+VW, T-Cros,tcross
+VW,Passat,passat
+VW, T-ROC,troc
+VW, UP,up
+VW, TIGUAN,tiguan
+VW, amarok,amarok
+VW,Up,up
+VW, scirocco,scirocco
+VW, U,golf
+VW,Arteon,arteon
+VW, T-CROSS,tcross
+VW, Caddy,caddy
+VW,polo,polo
+VW, TIGUAN ALLSPACE,tiguanallspace
+VW, touareg,touareg
+VW, SCIROCCO,scirocco
+VW, shuttle,shuttle
+VW, Scirocc,scirocco
+VW, touran,touran
+VW, gol,gol
+VW, tiguan allspace,tiguanallspace
+VW, Golf S,golf
+VW, Toura,touran
+VW, Beetl,beetle
+VW,Beetle,beetle
+VW, TIGUA,tiguan
+VW,Amarok,amarok
+VW, golf s,golf
+VW, golf sv,golfsv
+VW,Scirocco,scirocco
+VW, Caravell,caravelle
+VW,Pol,polo
+VW, cc,cc
+VW, Tiguan Allspac,tiguanallspace
+VW,Sharan,sharan
+VW, Caddy Maxi,caddymaxi
+VW,UP,up
+VW,T-Cross,tcross
+VW, Fox,fox
+VW, Amaro,amarok
+VW,Arteo,arteon
+VW,Tigua,tiguan
+VW,Golf S,golf
+VW,CC,cc
+VW, Caddy Maxi Lif,caddymaxi
+VW, t-cros,tcross
+VW, Touare,touareg
+VW, GOL,gol
+VW,TIGUAN,tiguan
+VW, TOURA,touran
+VW, GOLF SV,golfsv
+VW,tiguan,tiguan
+VW, SHARAN,sharan
+VW,Gol,gol
+VW, t-cross,tcross
+VW, JETTA,jetta
+VW, ARTEON,arteon
+VW, beetle,beetle
+VW, arteon,arteon
+VW, fox,fox
+VW,PASSAT,passat
+VW, jetta,jetta
+VW, PASSA,passat
+VW, Californi,california
+VW,GOLF,golf
+VW, caravelle,caravelle
+VW,Caravelle,caravelle
+VW, SHARA,sharan
+VW, SHUTTLE,shuttle
+VW,Jetta,jetta
+VW, POL,polo
+VW,Tiguan Allspace,tiguanallspace
+Opel, Insignia,insignia
+Opel, Mokka X,mokkax
+Opel, Corsa,corsa
+Opel, Astra,astra
+Opel, Viva,viva
+Opel, Adam,adam
+Opel, Mokka,mokkax
+Opel, Crossland X,crosslandx
+Opel, mokka x,mokkax
+Opel, Zafira,zafira
+Opel, INSIGNIA,insignia
+Opel, Grandland X,grandland
+Opel, ASTRA,astra
+Opel, Astr,astra
+Opel, Combo Life,combolife
+Opel, GTC,gtc
+Opel, Meriva,meriva
+Opel, Mokka ,mokkax
+Opel, crossland x,crosslandx
+Opel, Mokk,mokkax
+Opel,Astra,astra
+Opel, viva,viva
+Opel, Agila,agila
+Opel, astra,astra
+Opel, corsa,corsa
+Opel, MOKKA X,mokkax
+Opel, Insigni,insignia
+Opel,Meriva,meriva
+Opel, Grandland ,grandland
+Opel,Corsa,corsa
+Opel, Zafira Tourer,zafiratourer
+Opel,Grandland X,grandland
+Opel,Viva,viva
+Opel, Antara,antara
+Opel, Kadjar,adam
+Opel, Cors,corsa
+Opel, Zafira Toure,zafiratourer
+Opel, MERIVA,meriva
+Opel,Mokka,mokkax
+Opel, VIVA,viva
+Opel, mokka ,mokkax
+Opel, insignia,insignia
+Opel, mokka,mokkax
+Opel, grandland x,grandland
+Opel,Insignia,insignia
+Opel, COMBO LIFE,combolife
+Opel,Zafira,zafira
+Opel, Crossland ,crosslandx
+Opel, Tigra,tigra
+Opel, CORSA,corsa
+Opel, Vivaro,vivaro
+Opel,gtc,gtc
+Opel,Adam,adam
+Opel,Mokka X,mokkax
+Opel, Viv,viva
+Opel, Zafir,zafira
+Opel, ZAFIRA,zafira
+Opel, Cascada,cascada
+Opel,GTC,gtc
+Opel, CROSSLAND X,crosslandx
+Opel, Ada,adam
+Opel, INSIGNI,insignia
+Opel, adam,adam
+Opel, zafira,zafira
+Opel,ASTRA,astra
+Opel,Crossland X,crosslandx
+Opel, MOKKA,mokkax
+Opel, Meriv,meriva
+Opel,Zafir,zafira
+Opel, VECTRA,vectra
+Opel, combo life,combolife
+Opel,Insigni,insignia
+Opel,astra,astra
+Opel, Ampera,ampera
+Opel, Combo Lif,combolife
+Opel, cors,corsa
+Opel, meriva,meriva
+Opel, CORS,corsa
+Opel,COMBO LIFE,combolife
+Opel,corsa,corsa
+Opel,Vectra,vectra
+Opel,Mokka ,mokkax
+Opel,Combo Life,combolife
+Opel, GRANDLAND X,grandland
+Opel,Mokk,mokkax
+Opel, Vectra,vectra
+Opel,Zafira Tourer,zafiratourer
+Opel, ZAFIR,zafira
+Opel, AGILA,agila
+Opel, gtc,gtc
+Opel, antara,antara
+Opel, ADAM,adam
+Opel,viva,viva
+BMW, 2 Series,2 series
+BMW,3 Series,3 series
+BMW, 3 Series,3 series
+BMW, X3,x3
+BMW, X2,x2
+BMW, 5 Series,5 series
+BMW, X1,x1
+BMW, 4 Series,4 series
+BMW, 1 Series,1 series
+BMW, M3,m3
+BMW, 2 series,2 series
+BMW,1 Series,1 series
+BMW, 1 SERIES,1 series
+BMW, X4,x4
+BMW, 3 Serie,3 series
+BMW, M4,m4
+BMW, 3 series,3 series
+BMW,5 Series,5 series
+BMW, Z4,z4
+BMW, 2 serie,2 series
+BMW, X5,x5
+BMW, x1,x1
+BMW,X5,x5
+BMW, 6 Series,6 series
+BMW, 4 SERIES,4 series
+BMW, 4 Serie,4 series
+BMW, 4 serie,4 series
+BMW, 1 Serie,1 series
+BMW,4 series,4 series
+BMW, X,3 series
+BMW, 5 Serie,5 series
+BMW, 8 Series,8 series
+BMW, Z3,z3
+BMW,2 Series,2 series
+BMW, x5,x5
+BMW, 7 Series,7 series
+BMW, 5 SERIES,5 series
+BMW, X6,x6
+BMW, 5 series,5 series
+BMW, 1 series,1 series
+BMW, 3 SERIES,3 series
+BMW, i3,i3
+BMW, x2,x2
+BMW, 4 series,4 series
+BMW, i8,i8
+BMW, X7,x7
+BMW, 2 SERIES,2 series
+BMW, x3,x3
+BMW, 2 Serie,2 series
+BMW, 3 serie,3 series
+BMW,4 Series,4 series
+BMW, 7 Serie,7 series
+BMW, M5,m5
+BMW,2 Serie,2 series
+BMW, x,3 series
+BMW,Z4,z4
+BMW, 6 SERIES,6 series
+BMW,X2,x2
+BMW,M3,m3
+BMW,x1,x1
+BMW, Z,3 series
+BMW,X6,x6
+BMW, M,3 series
+BMW,5 SERIES,5 series
+BMW, 6 series,6 series
+BMW, 8 Serie,8 series
+BMW, M2,m2
+BMW,6 Series,6 series
+BMW,1 SERIES,1 series
+BMW, 1 SERIE,1 series
+BMW,X1,x1
+BMW,X7,x7
+BMW,X3,x3
+BMW,Z3,z3
+BMW, 7 SERIES,7 series
+BMW,i3,i3
+BMW,1 series,1 series
+BMW, 1 serie,1 series
+BMW, i,3 series
+BMW, 7 series,7 series
+BMW, M6,m6
+BMW,M5,m5
+BMW,3 Serie,3 series
+BMW, z4,z4
+BMW, 6 Serie,6 series
+BMW, 8 series,8 series
+BMW, 8 SERIES,8 series
+BMW, I3,i3
+BMW, m3,m3
+BMW,X4,x4
+BMW, m4,m4
+BMW, m5,m5
+BMW,I8,i8
+BMW, 5 SERIE,5 series
+BMW,2 series,2 series
+BMW, x4,x4
+BMW,i8,i8
+Audi, Q2,q2
+Audi, A3,a3
+Audi, Q3,q3
+Audi, Q5,q5
+Audi, TT,tt
+Audi, a1,a1
+Audi, A8,a8
+Audi, A4,a4
+Audi, A1,a1
+Audi, A5,a5
+Audi, A6,a6
+Audi, Q7,q7
+Audi, Q,a3
+Audi, RS6,rs6
+Audi, q3,q3
+Audi, a5,a5
+Audi,A4,a4
+Audi,Q3,q3
+Audi, A7,a7
+Audi,A5,a5
+Audi, a4,a4
+Audi,Q5,q5
+Audi, A,a3
+Audi, RS5,rs5
+Audi,A3,a3
+Audi, R8,r8
+Audi,A1,a1
+Audi, Q8,q8
+Audi, RS3,rs3
+Audi, a3,a3
+Audi, q5,q5
+Audi,A6,a6
+Audi, SQ5,sq5
+Audi, RS4,rs4
+Audi, sq7,sq7
+Audi, S3,s3
+Audi, tt,tt
+Audi, S4,s4
+Audi, q7,q7
+Audi, q2,q2
+Audi, A2,a2
+Audi,Q8,q8
+Audi,Q7,q7
+Audi,TT,tt
+Audi, a6,a6
+Audi, S8,s8
+Audi, RS,rs3
+Audi,Q2,q2
+Audi, a,a3
+Audi, s3,s3
+Audi, SQ7,sq7
+Audi,RS6,rs6
+Audi,A8,a8
+Audi,a8,a8
+Audi, T,a3
+Audi, S5,s5
+Audi, a7,a7
+Audi,A7,a7
+Audi,q5,q5
+Audi,R8,r8
+Audi,RS3,rs3
+Audi, r8,r8
+Audi,SQ5,sq5
+Audi,A,a3
+Audi,Q,a3
+Audi, RS7,rs3
+Audi,RS4,rs4
+Toyota, Yaris,yaris
+Toyota, C-HR,chr
+Toyota, Aygo,aygo
+Toyota, Auris,auris
+Toyota, Prius,prius
+Toyota, Corolla,corolla
+Toyota, YARIS,yaris
+Toyota, PRIUS,prius
+Toyota, RAV4,rav4
+Toyota,Auris,auris
+Toyota, Verso,verso
+Toyota, Ayg,aygo
+Toyota, GT86,gt86
+Toyota, Land Cruiser,landcruiser
+Toyota, rav4,rav4
+Toyota, PROACE VERSO,proaceverso
+Toyota, hilux,hilux
+Toyota, Hilux,hilux
+Toyota, Avensis,avensis
+Toyota,Yaris,yaris
+Toyota, VERSO,verso
+Toyota, Camry,camry
+Toyota, auris,auris
+Toyota,RAV4,rav4
+Toyota, AURIS,auris
+Toyota, Yari,yaris
+Toyota,Prius,prius
+Toyota, aygo,aygo
+Toyota, ayg,aygo
+Toyota, Supra,supra
+Toyota, AYGO,aygo
+Toyota, C-H,yaris
+Toyota, c-hr,chr
+Toyota, yaris,yaris
+Toyota, Verso-S,verso
+Toyota, corolla,corolla
+Toyota,Aygo,aygo
+Toyota, Auri,auris
+Toyota, IQ,iq
+Toyota,RAV,rav4
+Toyota, gt86,gt86
+Toyota,Hilux,hilux
+Toyota, verso,verso
+Toyota,C-HR,chr
+Toyota, RAV,rav4
+Toyota,rav4,rav4
+Toyota, COROLLA,corolla
+Toyota,Verso,verso
+Toyota, Urban Cruiser,urbancruiser
+Toyota, avensis,avensis
+Toyota, Coroll,corolla
+Toyota,aygo,aygo
+Toyota, yari,yaris
+Toyota, prius,prius
+Toyota,Supra,supra
+Toyota,Yari,yaris
+Toyota, AVENSIS,avensis
+Toyota, Hilu,hilux
+Toyota,corolla,corolla
+Toyota, Land Cruise,landcruiser
+Toyota, rav,rav4
+Toyota,Corolla,corolla
+Toyota, Vers,verso
+Toyota, AYG,aygo
+Toyota,Avensis,avensis
+Toyota,yaris,yaris
+Toyota, HILU,hilux
+Toyota, proace verso,proaceverso
+Toyota, c-h,yaris
+Toyota,Camry,camry
+Toyota,YARIS,yaris
+Toyota, land cruiser,landcruiser
+Toyota,PROACE VERSO,proaceverso
+Toyota, Camr,camry
+Skoda, Octavia,octavia
+Skoda, Fabia,fabia
+Skoda, Rapid,rapid
+Skoda, Yeti Outdoor,yetioutdoor
+Skoda, Scala,scala
+Skoda, Kamiq,kamiq
+Skoda, Citigo,citigo
+Skoda, Roomster,roomster
+Skoda, Kodiaq,kodiaq
+Skoda, SUPERB,superb
+Skoda,Fabia,fabia
+Skoda, Superb,superb
+Skoda, Octavi,octavia
+Skoda, yeti outdoor,yetioutdoor
+Skoda, Karoq,karoq
+Skoda, fabia,fabia
+Skoda, Kodia,kodiaq
+Skoda, Yeti,yeti
+Skoda, YETI OUTDOOR,yetioutdoor
+Skoda, Rapi,rapid
+Skoda, KAMIQ,kamiq
+Skoda, rapid,rapid
+Skoda, Citig,citigo
+Skoda, Super,superb
+Skoda, FABIA,fabia
+Skoda,Karoq,karoq
+Skoda, OCTAVIA,octavia
+Skoda, SCALA,scala
+Skoda, kodiaq,kodiaq
+Skoda,Superb,superb
+Skoda,Octavia,octavia
+Skoda, citigo,citigo
+Skoda, Yeti Outdoo,yetioutdoor
+Skoda,Citigo,citigo
+Skoda, Fabi,fabia
+Skoda, yeti,yeti
+Skoda, CITIGO,citigo
+Skoda, superb,superb
+Skoda, Roomste,roomster
+Skoda,Scala,scala
+Skoda, KAMI,kamiq
+Skoda, karoq,karoq
+Skoda, octavia,octavia
+Skoda, KAROQ,karoq
+Skoda, scala,scala
+Skoda,kodiaq,kodiaq
+Skoda, KODIAQ,kodiaq
+Skoda,Octavi,octavia
+Skoda, super,superb
+Skoda, Karo,karoq
+Skoda, Scal,scala
+Skoda, scal,scala
+Skoda,Roomster,roomster
+Skoda, kamiq,kamiq
+Skoda,Yeti Outdoor,yetioutdoor
+Skoda, Yet,yeti
+Skoda,FABIA,fabia
+Skoda,Rapid,rapid
+Skoda,octavia,octavia
+Skoda,Yeti,yeti
+Skoda,Kodiaq,kodiaq
+Skoda, octavi,octavia
+Skoda,Kamiq,kamiq
+Skoda, yeti outdoo,yetioutdoor
+Skoda, YETI,yeti
+Skoda, OCTAVI,octavia
+Hyundai, I30,i30
+Hyundai, IX20,ix20
+Hyundai, i20,i20
+Hyundai, I20,i20
+Hyundai, Kona,kona
+Hyundai, I10,i10
+Hyundai, Ioniq,ioniq
+Hyundai, Tucson,tucson
+Hyundai,Tucson,tucson
+Hyundai, Santa Fe,santafe
+Hyundai, I800,i800
+Hyundai, Getz,getz
+Hyundai, IX35,ix35
+Hyundai, I40,i40
+Hyundai, I3,i30
+Hyundai, i10,i10
+Hyundai, TUCSON,tucson
+Hyundai, I1,i10
+Hyundai, Tucso,tucson
+Hyundai, i30,i30
+Hyundai, KONA,kona
+Hyundai,I10,i10
+Hyundai,I40,i40
+Hyundai, I80,i800
+Hyundai, Ioni,ioniq
+Hyundai, Veloste,terracan
+Hyundai, Santa F,santafe
+Hyundai, santa fe,santafe
+Hyundai,Ioniq,ioniq
+Hyundai, Kon,kona
+Hyundai,Kona,kona
+Hyundai, SANTA FE,santafe
+Hyundai,I20,i20
+Hyundai,Santa Fe,santafe
+Hyundai, tucson,tucson
+Hyundai, I2,i20
+Hyundai, KON,kona
+Hyundai, IONIQ,ioniq
+Hyundai, ix20,ix20
+Hyundai,I30,i30
+Hyundai, kona,kona
+Hyundai,IONIQ,ioniq
+Hyundai, TUCSO,tucson
+Hyundai, i40,i40
+Hyundai,Tucso,tucson
+Hyundai, IX2,ix20
+Hyundai, ix35,ix35
+Hyundai,IX35,ix35
+Hyundai, ioniq,ioniq
+Hyundai,IX20,ix20
+Hyundai, Terracan,terracan
+Hyundai, Veloster,terracan
+Hyundai,I2,i20
+Hyundai,I800,i800
+Hyundai, I4,i40
