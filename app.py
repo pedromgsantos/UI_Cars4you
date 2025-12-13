@@ -19,7 +19,7 @@ st.set_page_config(
 )
 
 # File paths (relative to repository root)
-MODEL_PATH = "files/random_forest_noCV.pkl"
+MODEL_PATH = "files/random_forest_compressed.pkl"
 SCALER_PATH = "preprocessing_results/full_dataset/scaler.pkl"
 
 # Input validation ranges
