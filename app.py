@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
+import joblib
 from pathlib import Path
 import sys
 
@@ -114,8 +115,8 @@ st.markdown(
 
 @st.cache_resource
 def load_model():
-    with open(MODEL_PATH, "rb") as f:
-        return pickle.load(f)
+    # CORRIGIDO: o teu modelo comprimido foi feito para joblib, não para pickle puro
+    return joblib.load(MODEL_PATH)
 
 def validate_inputs(inputs: dict):
     y0, y1 = VALIDATION_RANGES["year"]
@@ -152,23 +153,24 @@ def predict_price_from_dict(input_dict: dict, model) -> float:
     try:
         df_processed = generate_user_final_df(input_dict)
         pred_scaled = float(model.predict(df_processed)[0])
-        
+
         # Unscale prediction
         with open(SCALER_PATH, "rb") as f:
             scaler = pickle.load(f)
-        
+
         price_log_min = scaler.data_min_[10]
         price_log_max = scaler.data_max_[10]
         price_log_range = price_log_max - price_log_min
         price_log_unscaled = pred_scaled * price_log_range + price_log_min
-        
+
         final_price = float(np.exp(price_log_unscaled))
-        
+
         return final_price
-        
+
     except Exception as e:
         st.error(f"Error during prediction: {str(e)}")
         raise
+
 
 def main():
     st.title("Cars 4 You - Price Predictor")
@@ -187,7 +189,7 @@ def main():
         st.subheader("Vehicle Details")
 
         st.markdown("#### Identification")
-        
+
         col_brand, col_model = st.columns(2)
         with col_brand:
             brand = st.text_input(
@@ -196,7 +198,7 @@ def main():
                 help="e.g., Mercedes, BMW, Audi",
                 placeholder="Enter brand name"
             )
-        
+
         with col_model:
             model_name = st.text_input(
                 "Model",
