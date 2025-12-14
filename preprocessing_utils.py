@@ -13,7 +13,7 @@ from sklearn.impute import KNNImputer
 CURRENT_YEAR = 2020
 
 brand_mapping = pd.read_csv('./mapping_dicts/brand_mapping.csv')
-fuelType_mapping = pd.read_csv('./mapping_dicts/fuelType_mapping.csv')
+fuelType_mapping = pd.read_csv('./mapping_dicts/fueltype_mapping.csv')
 model_mapping = pd.read_csv('./mapping_dicts/model_mapping.csv')
 transmission_mapping = pd.read_csv('./mapping_dicts/transmission_mapping.csv')
 
