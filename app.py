@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
-import pandas as pd
 import pickle
 import joblib
-from pathlib import Path
 import sys
 
 # Add project root to path for imports
@@ -115,8 +113,15 @@ st.markdown(
 
 @st.cache_resource
 def load_model():
-    # CORRIGIDO: o teu modelo comprimido foi feito para joblib, não para pickle puro
-    return joblib.load(MODEL_PATH)
+    model = joblib.load(MODEL_PATH)
+    if hasattr(model, "n_jobs"):
+        model.n_jobs = 1
+    return model
+
+@st.cache_resource
+def load_scaler():
+    with open(SCALER_PATH, "rb") as f:
+        return pickle.load(f)
 
 def validate_inputs(inputs: dict):
     y0, y1 = VALIDATION_RANGES["year"]
@@ -150,26 +155,18 @@ def validate_inputs(inputs: dict):
 
 
 def predict_price_from_dict(input_dict: dict, model) -> float:
-    try:
-        df_processed = generate_user_final_df(input_dict)
-        pred_scaled = float(model.predict(df_processed)[0])
+    df_processed = generate_user_final_df(input_dict)
+    pred_scaled = float(model.predict(df_processed)[0])
 
-        # Unscale prediction
-        with open(SCALER_PATH, "rb") as f:
-            scaler = pickle.load(f)
+    scaler = load_scaler()
 
-        price_log_min = scaler.data_min_[10]
-        price_log_max = scaler.data_max_[10]
-        price_log_range = price_log_max - price_log_min
-        price_log_unscaled = pred_scaled * price_log_range + price_log_min
+    price_log_min = scaler.data_min_[10]
+    price_log_max = scaler.data_max_[10]
+    price_log_range = price_log_max - price_log_min
+    price_log_unscaled = pred_scaled * price_log_range + price_log_min
 
-        final_price = float(np.exp(price_log_unscaled))
-
-        return final_price
-
-    except Exception as e:
-        st.error(f"Error during prediction: {str(e)}")
-        raise
+    final_price = float(np.exp(price_log_unscaled))
+    return final_price
 
 
 def main():
