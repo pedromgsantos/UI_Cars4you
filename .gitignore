@@ -32,3 +32,4 @@ Thumbs.db
 *.egg-info/
 dist/
 build/
+files/random_forest_noCV.pkl
