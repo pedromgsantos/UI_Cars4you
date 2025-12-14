@@ -1,6 +1,6 @@
 # Cars 4 You - Streamlit UI
 
-This repository contains the Streamlit user interface for the Cars 4 You project. It provides an analytics interface where a user can enter vehicle details and obtain a price prediction from a pre-trained regression model.
+This repository contains the Streamlit user interface for the Cars4You project. It provides an analytics interface where a user can enter vehicle details and obtain a price prediction from a pre-trained regression model.
 
 This implementation corresponds to the “Additional Insights” objective (c): create an analytics interface that returns a prediction when new input data is provided.
 
@@ -9,11 +9,11 @@ This implementation corresponds to the “Additional Insights” objective (c): 
 Included:
 - Streamlit form to collect vehicle attributes
 - Preprocessing required to transform user input into the model-ready format
-- Loading a pre-trained model and returning a predicted price (GBP)
+- Loading a pre-trained model and returning a predicted price (£)
 
-Not included:
-- Model training, benchmarking, and optimisation notebooks
-- The full project report and analysis deliverables
+Not included (these can be found on the main repository):
+- Model training, benchmarking, and optimisation notebooks 
+- The full project report and analysis deliverables 
 
 ## Inputs and output
 
@@ -24,15 +24,15 @@ Inputs (examples):
 - previousOwners, hasDamage
 
 Output:
-- Predicted vehicle price in £ (GBP)
+- Predicted vehicle price in £
 
 ## Repository structure
 
-- `app.py` — Streamlit application (UI + inference)
-- `preprocessing_utils.py` — preprocessing utilities used at inference time
-- `mapping_dicts/` — CSV mapping files used by preprocessing (case-sensitive on Linux)
-- `preprocessing_results/full_dataset/scaler.pkl` — scaler used to unscale the model output
-- `files/random_forest_compressed.pkl` — model file (tracked with Git LFS)
+- `app.py` - Streamlit application (UI + inference)
+- `preprocessing_utils.py` - preprocessing utilities used at inference time
+- `mapping_dicts/` - CSV mapping files used by preprocessing (case-sensitive on Linux)
+- `preprocessing_results/full_dataset/scaler.pkl` - scaler used to unscale the model output
+- `files/random_forest_compressed.pkl` - model file (tracked with Git LFS)
 
 ## Run locally
 
