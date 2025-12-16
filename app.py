@@ -11,14 +11,14 @@ from preprocessing_utils import CURRENT_YEAR, generate_user_final_df, process_di
 
 # Page configuration
 st.set_page_config(
-    page_title="Cars 4 You - Price Predictor",
+    page_title="Cars4You - Price Prediction ",
     page_icon="🏎️",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
 
 # File paths (relative to repository root)
-MODEL_PATH = "files/random_forest_compressed.pkl"
+MODEL_PATH = "files/model_exported.pkl"
 SCALER_PATH = "preprocessing_results/full_dataset/scaler.pkl"
 
 # Input validation ranges
@@ -32,10 +32,16 @@ VALIDATION_RANGES = {
     "hasDamage": (0, 1),
 }
 
-# Custom CSS styling
+# Custom CSS styling - RED THEME
 st.markdown(
     """
     <style>
+    /* Remove extra top padding */
+    .block-container {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    
     .main {
         background: linear-gradient(135deg, #0a0e17 0%, #111827 100%);
         color: #e5e7eb;
@@ -47,11 +53,12 @@ st.markdown(
     }
 
     h1 {
-        background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+        background: linear-gradient(135deg, #700000 0%, #a00000 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 2.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0;
     }
 
     .stNumberInput input, .stSelectbox select, .stTextInput input {
@@ -63,8 +70,8 @@ st.markdown(
     }
 
     .stNumberInput input:focus, .stSelectbox select:focus, .stTextInput input:focus {
-        border-color: #3b82f6;
-        box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+        border-color: #700000;
+        box-shadow: 0 0 0 2px rgba(112, 0, 0, 0.1);
     }
 
     label {
@@ -80,7 +87,7 @@ st.markdown(
     }
 
     .stButton button {
-        background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+        background: linear-gradient(135deg, #700000 0%, #a00000 100%);
         color: white;
         font-weight: 600;
         width: 100%;
@@ -90,12 +97,13 @@ st.markdown(
         font-size: 1rem;
         cursor: pointer;
         transition: all 0.3s ease;
-        box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+        box-shadow: 0 4px 15px rgba(112, 0, 0, 0.4);
     }
 
     .stButton button:hover {
         transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+        box-shadow: 0 6px 20px rgba(112, 0, 0, 0.6);
+        background: linear-gradient(135deg, #800000 0%, #b00000 100%);
     }
 
     .stAlert {
@@ -105,6 +113,12 @@ st.markdown(
 
     hr {
         border-color: rgba(75, 85, 99, 0.3);
+        margin: 1rem 0;
+    }
+    
+    /* Subtitle styling */
+    .main p {
+        margin-top: 0;
     }
     </style>
 """,
@@ -155,23 +169,29 @@ def validate_inputs(inputs: dict):
 
 
 def predict_price_from_dict(input_dict: dict, model) -> float:
+    """
+    UPDATED: Fixed scaler index (9 instead of 10) and exp function (expm1 instead of exp)
+    to match the preprocessing_utils.py logic from Preprocessing.ipynb
+    """
     df_processed = generate_user_final_df(input_dict)
     pred_scaled = float(model.predict(df_processed)[0])
 
     scaler = load_scaler()
 
-    price_log_min = scaler.data_min_[10]
-    price_log_max = scaler.data_max_[10]
+    # FIXED: Changed from index 10 to 9 (correct index for price_log in new scaler)
+    price_log_min = scaler.data_min_[9]
+    price_log_max = scaler.data_max_[9]
     price_log_range = price_log_max - price_log_min
     price_log_unscaled = pred_scaled * price_log_range + price_log_min
 
-    final_price = float(np.exp(price_log_unscaled))
+    # FIXED: Changed from np.exp to np.expm1 (because we used log1p during training)
+    final_price = float(np.expm1(price_log_unscaled))
     return final_price
 
 
 def main():
-    st.title("Cars 4 You - Price Predictor")
-    st.markdown("Advanced car price prediction with intelligent preprocessing.")
+    # Reduced spacing - no subtitle line
+    st.title("Cars4You - Price Predictor ")
     st.markdown("---")
 
     try:
@@ -326,7 +346,7 @@ def main():
                         f"""
                         <div style="
                             background: rgba(31, 41, 55, 0.6);
-                            border: 1px solid rgba(75, 85, 99, 0.4);
+                            border: 1px solid rgba(112, 0, 0, 0.4);
                             border-radius: 16px;
                             padding: 1.75rem;
                             text-align: center;
