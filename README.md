@@ -4,7 +4,7 @@ This repository contains the Streamlit user interface for the Cars4You project. 
 
 This implementation corresponds to the "Additional Insights" objective (c): create an analytics interface that returns a prediction when new input data is provided.
 
-## ⚠️ Important Notes
+## Important Notes!!
 
 **1. Simplified Preprocessing:**
 This is a **simplified version** of the original notebook's preprocessing code. In the UI, **ALL fields are MANDATORY** and there are **NO missing values to impute**. As such, functions like `guess_brand_model()`, `fix_empty_categorical()`, and `fix_empty_numerical()` have been removed, reducing the code from 604 to 255 lines (-58%) while maintaining the exact same preprocessing logic for complete inputs.
