@@ -2,66 +2,94 @@
 
 This repository contains the Streamlit user interface for the Cars4You project. It provides an analytics interface where a user can enter vehicle details and obtain a price prediction from a pre-trained regression model.
 
-This implementation corresponds to the “Additional Insights” objective (c): create an analytics interface that returns a prediction when new input data is provided.
+This implementation corresponds to the "Additional Insights" objective (c): create an analytics interface that returns a prediction when new input data is provided.
+
+## Important Notes!!
+
+**1. Simplified Preprocessing:**
+This is a **simplified version** of the original notebook's preprocessing code. In the UI, **ALL fields are MANDATORY** and there are **NO missing values to impute**. As such, functions like `guess_brand_model()`, `fix_empty_categorical()`, and `fix_empty_numerical()` have been removed, reducing the code from 604 to 255 lines (-58%) while maintaining the exact same preprocessing logic for complete inputs.
+
+**2. Model Selection:**
+The model used in this UI is **NOT the best model** we could train, but rather a **simpler and lighter model** that fits within the ZIP file size limit for submission. The best-performing models and full training pipeline can be found in the main project repository.
 
 ## Scope
 
-Included:
+**Included:**
 - Streamlit form to collect vehicle attributes
-- Preprocessing required to transform user input into the model-ready format
+- Preprocessing required to transform user input into model-ready format
 - Loading a pre-trained model and returning a predicted price (£)
 
-Not included (these can be found on the main repository):
+**Not included** (these can be found in the main repository):
 - Model training, benchmarking, and optimisation notebooks 
 - The full project report and analysis deliverables 
 
-## Inputs and output
+## Inputs and Output
 
-Inputs (examples):
+**Inputs (examples):**
 - Brand, model, year
 - mileage, tax, mpg, engineSize
 - transmission, fuelType
 - previousOwners, hasDamage
 
-Output:
+**Output:**
 - Predicted vehicle price in £
 
-## Repository structure
+## Repository Structure
 
-- `app.py` - Streamlit application (UI + inference)
-- `preprocessing_utils.py` - preprocessing utilities used at inference time
-- `mapping_dicts/` - CSV mapping files used by preprocessing (case-sensitive on Linux)
-- `preprocessing_results/full_dataset/scaler.pkl` - scaler used to unscale the model output
-- `files/random_forest_compressed.pkl` - model file (tracked with Git LFS)
+```
+UI_Cars4you/
+├── app.py                                          # Streamlit application (UI + inference)
+├── preprocessing_utils.py                          # Preprocessing utilities (simplified for UI)
+├── mapping_dicts/                                  # CSV mapping files for standardization
+│   ├── brand_mapping.csv
+│   ├── fueltype_mapping.csv
+│   ├── model_mapping.csv
+│   └── transmission_mapping.csv
+├── preprocessing_results/full_dataset/
+│   ├── scaler.pkl                                  # MinMaxScaler for feature scaling
+│   └── encoding_maps.pkl                           # Target encoding maps for model
+├── files/
+│   └── model_exported.pkl                          # Trained model file (lightweight version)
+└── requirements.txt                                # Python dependencies
+```
 
-## Run locally
+## Run Locally
 
-1) Clone the repository and pull LFS files:
+### 1) Clone the repository
 ```bash
-git lfs install
 git clone https://github.com/pedromgsantos/UI_Cars4you.git
 cd UI_Cars4you
-git lfs pull
 ```
 
-2) Create and Activate a virtual Environment
+### 2) Create and activate a virtual environment
 ```bash
 python -m venv venv
+
 # Windows PowerShell:
 .\venv\Scripts\Activate.ps1
+
+# Windows CMD:
+venv\Scripts\activate.bat
+
+# macOS/Linux:
+source venv/bin/activate
 ```
 
-3) Install dependencies
+### 3) Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-4) Run the app (locally)
+### 4) Run the app
 ```bash
 streamlit run app.py
 ```
 
-## Online demo
+The application will open in your default browser at `http://localhost:8501`
+
+## Online Demo
 
 The application is available online here:
-- https://uicars4you-mlproject.streamlit.app/
+- **Live Demo:** https://uicars4you-mlproject.streamlit.app/
+
+---
