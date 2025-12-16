@@ -32,7 +32,7 @@ VALIDATION_RANGES = {
     "hasDamage": (0, 1),
 }
 
-# Custom CSS styling - RED THEME
+# Custom CSS styling - RED THEME, to match the notebook cover's :)
 st.markdown(
     """
     <style>
@@ -190,7 +190,6 @@ def predict_price_from_dict(input_dict: dict, model) -> float:
 
 
 def main():
-    # Reduced spacing - no subtitle line
     st.title("Cars4You - Price Predictor ")
     st.markdown("---")
 
@@ -400,8 +399,8 @@ def main():
     st.markdown("---")
     st.markdown(
         "<div style='text-align: center; color: #6b7280; font-size: 0.875rem;'>"
-        "NOVA IMS Master's Project 2025-26<br>"
-        "Cars 4 You - Intelligent Price Prediction"
+        "Machine Learning Project 2025-26<br>"
+        "Cars 4 You - Car Price Prediction"
         "</div>",
         unsafe_allow_html=True,
     )
