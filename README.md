@@ -1,6 +1,6 @@
 # Cars 4 You - Streamlit UI
 
-This repository contains the Streamlit user interface for the Cars4You project. It provides an analytics interface where a user can enter vehicle details and obtain a price prediction from a pre-trained regression model.
+This repository contains the Streamlit user interface for the Cars4You project (https://github.com/pedromgsantos/regression-car-price-prediction). It provides an analytics interface where a user can enter vehicle details and obtain a price prediction from a pre-trained regression model.
 
 This implementation corresponds to the "Additional Insights" objective (c): create an analytics interface that returns a prediction when new input data is provided.
 
